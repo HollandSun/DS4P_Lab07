@@ -21,9 +21,9 @@ Y-axis and one starting the left axis at 15 and the right axis at 4
 makes small changes appear more dramatic.
 
 About How I got the data.please see
-<https://github.com/HollandSun/Reproduce_Lab7plot.git>
+<https://github.com/HollandSun/Reproduce_Lab7plot.git>.
 
-### Exercise 2 &3
+### Exercise 2 & 3
 
 ``` r
 # Read the actual data instead of guessing

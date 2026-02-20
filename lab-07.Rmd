@@ -6,7 +6,6 @@ output: github_document
 ---
 
 ### Load packages and data
-
 ```{r load-packages, message=FALSE}
 library(tidyverse) 
 ```
@@ -15,9 +14,9 @@ library(tidyverse)
 
 The visualization is misleading by using **Truncated y-axis**: The y-axis likely doesn't start at 0, which exaggerates the visual differences between the groups and makes small differences appear much larger than they actually are. and What's worse is that there is 2 Y-axis and one starting the left axis at 15 and the right axis at 4 makes small changes appear more dramatic.
 
-About How I got the data.please see https://github.com/HollandSun/Reproduce_Lab7plot.git
+About How I got the data.please see https://github.com/HollandSun/Reproduce_Lab7plot.git.
 
-### Exercise 2 &3
+### Exercise 2 & 3
 ```{r }
 # Read the actual data instead of guessing
 df <- read_csv("kansas_grouped_rolling_avg.csv")
@@ -80,6 +79,7 @@ because it shows that mask mandates were implemented **in response to** elevated
 - Mask counties experienced meaningful decline despite higher starting rates
 - The visual proportions match the numerical proportions
 - Mask counties and no Mask counties actually have huge different in y-axis
+
 
 ### Exercise 4
 
